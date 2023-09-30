@@ -1,8 +1,6 @@
-# Belajar Fundamental Aplikasi Back-End
+# Menjadi Back-End Developer Expert
 
-Kelas ini ditujukan untuk Back-End Developer yang ingin mengetahui cara mengelola dan mengamankan dengan baik di server, dengan mengacu pada
-standar industri yang divalidasi AWS. Di akhir kelas, siswa dapat membuat aplikasi back-end berupa RESTful API yang menerapkan Database, Authentication
-dan Authorization, Message Broker, Storage, dan Caching sesuai studi kasus yang ada dalam dunia nyata.
+Kelas ini ditujukan untuk Back-End Developer yang ingin mengetahui best practice dalam mengembangkan RESTful API menggunakan NodeJS, dengan mengacu pada standar industri yang divalidasi AWS. Di akhir kelas ini, siswa mampu membuat aplikasi back-end berupa RESTful API yang testable, scalable, mudah dan cepat untuk di-deploy, serta memiliki keamanan yang baik sesuai dengan standar kebutuhan Industri.
 
 Materi yang dipelajari:
 
@@ -15,13 +13,18 @@ Materi yang dipelajari:
 ## Environment Variables
 Untuk menjalankan project ini, anda harus menambahkan beberapa environment variables didalam file .env.
 
-`PGUSER`
+`HOST`
+`PORT`
 `PGHOST`
-`PGPASSWORD`
+`PGUSER`
 `PGDATABASE`
+`PGPASSWORD`
 `PGPORT`
+`PGHOST_TEST`
+`PGUSER_TEST`
+`PGDATABASE_TEST`
+`PGPASSWORD_TEST`
+`PGPORT_TEST`
 `ACCESS_TOKEN_KEY`
 `REFRESH_TOKEN_KEY`
 `ACCESS_TOKEN_AGE`
-`RABBITMQ_SERVER`
-`REDIS_SERVER`
